@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESAB's Stones(stone.info)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(bg2ResabWeb.jpg); 
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        header {
+            background-color: rgba(47, 79, 79, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            background-color: transparent;
+            backdrop-filter: blur(5px);
+            color: black;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: white;
+        }
+        #restriction{
+            height: 50px;
+            width: 100%;
+            color: red;
+            background-color: rgba(218, 148, 148, 0.8) ;
+            /* backdrop-filter: blur(35deg); */
+            font-weight: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .stone {
+            display: flex;
+            margin-bottom: 20px;
+            background: transparent;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .stone img {
+            max-width: 200px;
+            max-height: 200px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .stone h3 {
+            font-size: 1.4em;
+            color: white;
+            margin: 5px 0;
+        }
+        .stone p {
+            margin: 5px 0;
+        }
+        .stone .uses,
+        .stone .rashi,
+        .stone .who-should-wear {
+            margin-bottom: 10px;
+        }
+        .stone .uses {
+            font-weight: bold;
+        }
+        .copyright{
+            height: 20px;
+            width: 100%;
+            background-color:rgba(47, 79, 79, 0.8) ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            padding: 5px;
+        }
+        .copyright a{
+            color: wheat;
+        }
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    header {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    #restriction {
+        font-size: 12px;
+        padding: 10px;
+        text-align: center;
+    }
+    section {
+        padding: 10px;
+    }
+    .stone {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        max-width: 100%; /* Yeh ensure karega ki width 100% se exceed na ho */
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .stone img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .stone div {
+        width: 100%;
+    }
+    .stone h3 {
+        font-size: 1.2em;
+    }
+    .copyright {
+        font-size: 12px;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>RESAB's Stones</h1>
+    </header>
+    <div id="restriction">
+        <b>"Please consult your astrologer before contacting us and ask about the required carats of the stone based on your weight, then reach out to us."</b>
+    </div>
+    <section>
+        <h2>Pick Your Stone</h2>
+        <div class="stone">
+            <img src="https://th.bing.com/th/id/OIP.eWRysK6mKEvS_JMVhW5OpgHaE6?rs=1&pid=ImgDetMain" alt="Diamond Image"> <!-- Replace with your image -->
+            <div>
+                <h3>Diamond</h3>
+                <p class="uses">Uses: Represents luxury, wealth, and clarity of thought. It enhances love, relationships, and creativity.</p>
+                <p class="rashi">Rashi (Zodiac Sign): Vrishabha (Taurus), Tula (Libra).</p>
+                <p class="who-should-wear">Who should wear: Those who want to strengthen Venus (Shukra). Suitable for artists, actors, and anyone in creative fields.</p>
+            </div>
+        </div>
+
+        <div class="stone">
+            <img src="https://th.bing.com/th/id/OIP.jnEfag3KV7ZoohvFkN4NsAHaHa?rs=1&pid=ImgDetMain" alt="Ruby Image"> <!-- Replace with your image -->
+            <div>
+                <h3>Ruby (Manik)</h3>
+                <p class="uses">Uses: Known to enhance confidence, leadership, and vitality. It is associated with the Sun.</p>
+                <p class="rashi">Rashi (Zodiac Sign): Singh (Leo).</p>
+                <p class="who-should-wear">Who should wear: Ideal for people in leadership roles or those who want to boost self-confidence. Helps with overcoming health issues and gaining fame.</p>
+            </div>
+        </div>
+
+        <div class="stone">
+            <img src="https://th.bing.com/th/id/OIP.Awea1nZQ8ceoU8GX919DggHaE8?rs=1&pid=ImgDetMain" alt="Topaz Image"> <!-- Replace with your image -->
+            <div>
+                <h3>Topaz</h3>
+                <p class="uses">Uses: Promotes emotional stability, intelligence, and clear communication. It is also believed to bring success and luck.</p>
+                <p class="rashi">Rashi (Zodiac Sign): Dhanu (Sagittarius), Bichhha (Scorpio) .</p>
+                <p class="who-should-wear">Who should wear: Ideal for those looking for success in studies or professional life. Helps in building strong relationships and self-discipline.</p>
+            </div>
+        </div>
+
+        <div class="stone">
+            <img src="https://th.bing.com/th/id/OIP.qWfW34Dncmo3IL3GIP5bEwHaFj?rs=1&pid=ImgDetMain" alt="Aquamarine Image"> <!-- Replace with your image -->
+            <div>
+                <h3>Aquamarine</h3>
+                <p class="uses">Uses: Symbolizes tranquility and calmness. It is great for reducing stress and enhancing intuition.</p>
+                <p class="rashi">Rashi (Zodiac Sign): Kumbha (Aquarius), Meena (Pisces).</p>
+                <p class="who-should-wear">Who should wear: Suitable for people who want emotional balance and mental clarity. Great for public speakers and those in professions requiring frequent communication.</p>
+            </div>
+        </div>
+
+        <div class="stone">
+            <img src="https://th.bing.com/th/id/OIP.NxwPpQyygYI6_1bgB2NMkgHaE8?rs=1&pid=ImgDetMain" alt="Opal Image"> <!-- Replace with your image -->
+            <div>
+                <h3>Opal</h3>
+                <p class="uses">Uses: Enhances creativity, love, and passion. It is also considered a stone of good luck.</p>
+                <p class="rashi">Rashi (Zodiac Sign): Tula (Libra), Vrishabha (Taurus).</p>
+                <p class="who-should-wear">Who should wear: Best for artists, writers, and people in creative fields. Strengthens Venus and improves relationships.</p>
+            </div>
+        </div>
+
+        <div class="stone">
+            <img src="https://i.pinimg.com/originals/ab/a3/d4/aba3d4f10e3fa617d387b7b190f5c75e.jpg" alt="Alexandrite Image"> <!-- Replace with your image -->
+            <div>
+                <h3>Alexandrite</h3>
+                <p class="uses">Uses: Known as a stone of transformation, it is believed to bring balance, prosperity, and luck.</p>
+                <p class="rashi">Rashi (Zodiac Sign): Mesh (Aries), Vrishabha (Taurus).</p>
+                <p class="who-should-wear">Who should wear: Ideal for those seeking clarity, positivity, and adaptability in life. Also good for people working in research or technology.</p>
+            </div>
+        </div>
+
+        <div class="stone">
+            <img src="https://th.bing.com/th/id/OIP.4RhhOZtLj43LDTOSidlewgHaHa?w=500&h=500&rs=1&pid=ImgDetMain" alt="Morganite Image"> <!-- Replace with your image -->
+            <div>
+                <h3>Morganite</h3>
+                <p class="uses">Uses: Promotes love, compassion, and emotional healing. It strengthens the heart chakra.</p>
+                <p class="rashi">Rashi (Zodiac Sign): Karka (Cancer).</p>
+                <p class="who-should-wear">Who should wear: People who want to build stronger relationships or heal emotional wounds. Great for those who need to let go of past traumas.</p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="copyright">
+            <a href="">© 1985-2025, RESAB'sStones.com, Inc. or its affiliates</a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,484 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.diamon{
+    text-decoration: none;
+    color: #0f1111;
+}
+.navbar{
+    height: 60px;
+    background-color: #6C5B5D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    /* top: 20px; */
+}
+.nav-logo{
+    height: 50px;
+    width: 80px;
+}
+.logo{
+    background-image: url(resabstonelogoup.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 5%;
+}
+/* box2 */
+.add1{
+    color: #cccccc;
+    font-size: 0.75em;
+    margin-left: 15px;
+}
+.add2{
+    color: #ffffff;
+    margin-left: 4px;
+}
+.add-icon{
+    font-size: 30px;
+}
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #6c5b5d;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid #A07178;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1em;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+/* boxx 4*/
+.nav-singin{
+    font-size: 30px;
+}
+.nav-return{
+    font-size: 30px;
+}
+.nav-second{
+    font-weight: 700;
+}
+/* box 6*/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    
+    font-weight: 700 ;
+}
+.nav-singin{
+    padding-right: 20px;
+}
+
+/* Panel*/
+#RESAb{
+    text-decoration: none;
+    color: #0f1111;
+}
+.panel{
+    height: 40px;
+    background-color: #7D6266;
+    color: white;
+    font-family: Arial,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 14px;
+}
+.panel-deal{
+    font-weight: 700;
+}
+.panel-deal a{
+    color: white;    
+}
+.size a{
+    color: #cccccc;
+}
+/*Hero*/
+.hero-section{
+    background-image: url(backbanne.jpg);
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 30px;
+}
+/*shop section*/
+.shop-section{
+    height: 400px;
+    background-color: rgb(241, 229, 229);
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(194, 186, 186);
+}
+.shop-section2{
+    height: 400px;
+    background-color: rgb(241, 229, 229);
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(194, 186, 186);
+}
+.shop-section3{
+    height: 400px;
+    background-color: rgb(241, 229, 229);
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(194, 186, 186);
+}
+.shop-section4{
+    height: 400px;
+    background-color: rgb(241, 229, 229);
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(194, 186, 186);
+}
+/* .shop{
+    transition: width,height 2s linear;
+}
+.shop :hover{
+    background-color: red;
+    width: 405px;
+} */
+h2{
+    padding-left: 12px;
+}
+.box1st{
+    margin-top: 20px;
+    height: 330px;
+    width: 40%;
+    border: 1.5px solid transparent;
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 3px 3px  10px #333;
+}
+.box1st p,.box2nd p{
+    font-family: "Merriweather", serif;
+}
+.box2nd{
+    margin-top: 20px;
+    height: 330px;
+    width: 40%;
+    border: 1.5px solid transparent;
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 3px 3px  10px #333;
+}
+
+/* buybuuytgfvesdtcyjyuvy */
+
+
+.box-img1{
+    width: 100%;
+    /* float: left; */
+    height: 250px;
+    margin: 1rem 1rem 1rem 0rem;
+    /* margin-bottom: 1rem; */
+    background-image: url(https://content.instructables.com/ORIG/F1E/6YTZ/KDD3KB57/F1E6YTZKDD3KB57.jpg?auto=webp&frame=1&width=2100);
+    background-size: cover;
+}
+.box-img2{
+    width: 50%;
+    float: left;
+    height: 250px;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(https://th.bing.com/th/id/OIP.eWRysK6mKEvS_JMVhW5OpgHaE6?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+.box-img3{
+    width: 50%;
+    float: left;
+    height: 250px;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(https://th.bing.com/th/id/OIP.jnEfag3KV7ZoohvFkN4NsAHaHa?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+.box-img4{
+    width: 50%;
+    float: left;
+    height: 250px;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(https://th.bing.com/th/id/OIP.Awea1nZQ8ceoU8GX919DggHaE8?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+.box-img5{
+    width: 50%;
+    float: left;
+    height: 250px;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(https://th.bing.com/th/id/OIP.qWfW34Dncmo3IL3GIP5bEwHaFj?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+.box-img6{
+    width: 50%;
+    float: left;
+    height: 250px;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(https://th.bing.com/th/id/OIP.NxwPpQyygYI6_1bgB2NMkgHaE8?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+.box-img7{
+    width: 50%;
+    float: left;
+    height: 250px;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(https://i.pinimg.com/originals/ab/a3/d4/aba3d4f10e3fa617d387b7b190f5c75e.jpg);
+    background-size: cover;
+}
+.box-img8{
+    width: 50%;
+    float: left;
+    height: 250px;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(https://th.bing.com/th/id/OIP.4RhhOZtLj43LDTOSidlewgHaHa?w=500&h=500&rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+/** footer**/
+footer{
+    margin-top: 15px;
+}
+.footer-panel1{
+    height: 50px;
+    font-size: 15px;
+    background-color: #635758;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    background-color: #7D6266;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    margin-top: 40px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #6C5B5D;
+    border-top: 1px solid white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoo1{
+    height: 50px;
+    width: 70px;
+    background-image: url(Resabstone.png);
+    background-size: cover; 
+    
+}
+.logoo2{
+    height: 200px;
+    width: 200px;
+    background-image: url(resabstonelogowebb.jpg);
+    background-size: cover; 
+    
+}
+
+.foot-panel4{
+    padding: 20px;
+    height: 75px;
+    background-color: #635758;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.foot-panel4 a{
+    color: #ffffff;
+}
+.f1{
+    font-size: 11px;
+    padding: 5px;
+}
+.copyright{
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+/* for mobile responsive design */
+@media screen and (max-width: 1024px) {
+    .nav-search {
+        width: 80%;
+        font-size: 10px;
+    }
+    .shop-section, .shop-section2, .shop-section3, .shop-section4 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .box1st, .box2nd {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        flex-direction: column;
+        width: 100%;
+    }
+    .size{
+        font-size: 20px;
+    }
+    .logo{
+        height: 50px;
+        background-size: 100%;
+        color: white;
+    }
+    .panel-ops{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        padding-left: px;
+        font-size: 10px;
+    }
+    .nav-singin{
+        padding-right: 10px;
+    }
+    .nav-search {
+        /* width: 100%;
+        margin-top: 10px; */
+        display: flex;
+        justify-content: space-evenly;
+        /* flex-direction: column; */
+        width: 50%;
+        height: auto;
+        padding: 10px 0;
+        font-size: 10px;
+    }
+    .panel {
+        /* flex-direction: column; */
+        /* height: auto; */
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .panel-all{
+        display: flex;
+        padding-right: 10px;
+    }
+    #RESAb{
+        font-size: 10px;
+    }
+    .panel-deal{
+        font-size: 15px;
+    }
+    .hero-msg {
+        height: 60px;
+    }
+    .foot-panel2{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-search {
+        /* flex-direction: column;
+        height: auto; */
+        display: flex;
+        justify-content: space-evenly;
+        /* flex-direction: column; */
+        height: auto;
+        padding: 10px 0;
+    }
+    .search-select, .search-input, .search-icon {
+        /* width: 100%; */
+        text-align: left;
+        padding: 5px;
+    }
+    .shop-section, .shop-section2, .shop-section3, .shop-section4 {
+        flex-direction: column;
+        height: auto;
+    }
+    .box1st, .box2nd {
+        width: 90%;
+    }
+    .footer-panel1, .foot-panel2, .foot-panel3 {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 10px 0;
+    }
+}
+

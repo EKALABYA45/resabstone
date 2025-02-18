@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Resab's Stone</title>
+    <style>
+        body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url(bg2ResabWeb.jpg);
+                background-size: cover;
+            }
+
+            header {
+                background-color: transparent;
+                color: white;
+                margin-top: 3px;
+                font-size: 24px;
+                display: flex;
+                justify-content: space-between;
+            }
+            header h1{
+                padding-left: 10px;
+            }
+
+            .about {
+                display: flex;
+                flex-direction: column;
+                /* align-items: center; */
+                padding: 20px;
+            }
+
+            .about img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                margin-bottom: 10px;
+            }
+            .imagelogo{
+                height: 110px;
+                width: 110px;
+                padding-right: 10px;
+            }
+
+            .contact, .delivery, .experience {
+                background: transparent;
+                backdrop-filter: blur(2px);
+                margin: 20px 0; /* Top and bottom margin */
+                padding: 15px;
+                width: 40%; /* Set width */
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                display: block; /* Ensure each div is on a new line */
+                float: none; /* Remove any float behavior */
+            }
+
+            
+
+            .contact a {
+                color: #007BFF;
+                text-decoration: none;
+            }
+
+            .contact a:hover {
+                text-decoration: underline;
+            }
+
+            h2 {
+                color: wheat;
+            }
+
+            p {
+                color: white;
+            }
+            /* Mobile Responsive Design */
+            @media (max-width: 768px) {
+                header {
+                    flex-direction: column;
+                    text-align: center;
+                }
+                header h1{
+                    font-size: 50px;
+                }
+            
+                .contact, .delivery, .experience {
+                    width: 90%; /* Set width to 90% on smaller screens */
+                    margin: 20px auto; /* Center the divs */
+                }
+            
+                h1 {
+                    font-size: 20px;
+                }
+            
+                .about img {
+                    width: 100px;
+                    height: 100px;
+                }
+            
+                .imagelogo {
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+            .copyright{
+            height: 20px;
+            width: 100%;
+            background-color:rgba(47, 79, 79, 0.8) ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            padding: 5px;
+            color: wheat;
+            }
+            .copyright a{
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Website Name -->
+    <header>
+        <h1>Resab's Stone</h1>
+        <img class="imagelogo" src="resabstonelogoup.png" alt="Your Photo">
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="details">
+            <h2>Sitaram Meher(Owner)</h2>
+            <p>Expert in Stone Crafting</p>
+            <p>Providing quality stones for your jewellery.</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Phone:</strong> +91 9556500766 & 7609990510</p>
+        <p><strong>Email:</strong> mehersitaram@example.com</p>
+        <p><strong>Instagram:</strong> <a href="#">@resabsstone</a></p>
+    </section>
+
+    <!-- Delivery Information -->
+    <section class="delivery">
+        <h2>Our Delivery Process</h2>
+        <p>We ensure safe and on-time delivery of our premium stones across the country. We partner with trusted courier services for a seamless experience.</p>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience">
+        <h2>45+ Years of Excellence</h2>
+        <p>With over 45 years of experience in the industry, we have built a legacy of quality, trust, and craftsmanship.</p>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <a href="">© 1985-2025, RESAB'sStones.com, Inc. or its affiliates</a>
+        </div>
+    </footer>
+</body>
+</html>
