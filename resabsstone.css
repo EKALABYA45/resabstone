@@ -150,7 +150,8 @@
     align-items: flex-end;
 }
 .hero-msg{
-    background-color: white;
+    background-color: transparent;
+    backdrop-filter: blur(3px); 
     height: 35px;
     display: flex;
     justify-content: center;
