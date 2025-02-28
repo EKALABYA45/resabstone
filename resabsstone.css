@@ -308,8 +308,11 @@ footer{
     background-color: #635758;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+.footer-panel1 .txt{
+    margin-left: 40px;
 }
 .foot-panel2{
     background-color: #7D6266;
@@ -318,6 +321,10 @@ footer{
     display: flex;
     justify-content: center;
 
+}
+.foot-panel2 .flexx{
+    display: flex;
+    justify-content: space-evenly;
 }
 ul{
     margin-top: 40px;
